@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (5.4.4)
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
+  - frameworkWithDependecies (1.0.0):
+    - Alamofire (= 5.4.4)
+    - IQKeyboardManagerSwift (= 6.5.6)
+    - lottie-ios (= 3.2.1)
+    - SVGKit (= 3.0.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - lottie-ios (3.2.1)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
+
+DEPENDENCIES:
+  - frameworkWithDependecies (from `https://github.com/tiskender2/frameworkWithDependecies.git`, commit `79eb9fdaaad939ba98e881f9ef5e49782339b5aa`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaLumberjack
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - SVGKit
+
+EXTERNAL SOURCES:
+  frameworkWithDependecies:
+    :commit: 79eb9fdaaad939ba98e881f9ef5e49782339b5aa
+    :git: https://github.com/tiskender2/frameworkWithDependecies.git
+
+CHECKOUT OPTIONS:
+  frameworkWithDependecies:
+    :commit: 79eb9fdaaad939ba98e881f9ef5e49782339b5aa
+    :git: https://github.com/tiskender2/frameworkWithDependecies.git
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  frameworkWithDependecies: 37727da04209d99616d6a08ba7b0eed1ce7979fc
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  lottie-ios: 106e92eaf11fbed0a76590b4cdb9b5ec26123ff7
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+
+PODFILE CHECKSUM: 9774fe1f0eb0d8fe8564f999ba6365e20be9320d
+
+COCOAPODS: 1.11.2
